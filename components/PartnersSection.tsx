@@ -37,10 +37,9 @@ const ALL_LOGOS = [
 ];
 
 const NEWS_BANNERS = [
-  { title: "NOVA PARCERIA!", desc: "Agora você tem 20% de desconto em farmácias selecionadas." },
-  { title: "CONVÊNIO PET+", desc: "Novas clínicas veterinárias integradas ao TeleVet." },
-  { title: "GASTRONOMIA", desc: "Mais de 15 novos restaurantes entraram no clube esta semana!" }
-];
+  { title: "NOVA PARCERIA!", desc: "Agora você tem até 15% de desconto em farmácias selecionadas." },
+  { title: "NOVAS PARCERIAS", desc: "Novas Parcerias chegando em breve." },
+  ];
 
 // Memoized LogoSlot para evitar re-renders do pai
 const LogoSlot = memo(({ logoUrl }: { logoUrl: string }) => {
