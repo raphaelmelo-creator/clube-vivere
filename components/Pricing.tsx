@@ -32,7 +32,7 @@ const Pricing: React.FC = () => {
             >
               {p.recommended && (
                 <div className="absolute -top-3 md:-top-5 left-1/2 -translate-x-1/2 bg-oliva-700 text-white px-3 md:px-6 py-1 md:py-2 rounded-full text-[8px] md:text-xs font-bold uppercase tracking-widest shadow-lg z-10">
-                  Popular
+                  Mais Vendido
                 </div>
               )}
               
