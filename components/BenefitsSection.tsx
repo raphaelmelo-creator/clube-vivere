@@ -25,7 +25,7 @@ const BenefitsSection: React.FC = () => {
       imgUrl: IMG_SAUDE
     },
     {
-      title: "TeleVet Pet",
+      title: "TeleVet",
       desc: "Consulta veterinária online para o seu melhor amigo.",
       imgUrl: IMG_PET
     }
